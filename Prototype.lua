@@ -5,7 +5,7 @@ local ScreenGui = LocalPlayer.PlayerGui:FindFirstChild('Window')
 
 if ScreenGui then return end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lukanker/Deepsploit/main/DeepsploitGUI.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lukankerhub/Deepsploit/main/DeepsploitGUI.lua"))()
 
 local Window = Library.New()
 local DeepsploitSection = Window:NewSection('Deepsploit')
