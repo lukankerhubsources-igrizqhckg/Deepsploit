@@ -1,11 +1,12 @@
 -- v1.09
+local GitHubName = loadstring(game:HttpGet("https://pastebin.com/raw/sS94Uwjg"))()
 local LocalPlayer = game.Players.LocalPlayer
 local Character = LocalPlayer.Character
 local ScreenGui = LocalPlayer.PlayerGui:FindFirstChild('Window')
 
 if ScreenGui then return end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lukankerhubsources/Deepsploit/main/DeepsploitGUI.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/" + GitHubName + "/Deepsploit/main/DeepsploitGUI.lua"))()
 
 local Window = Library.New()
 local DeepsploitSection = Window:NewSection('Deepsploit')
